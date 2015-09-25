@@ -208,6 +208,16 @@ dt{
     vertical-align: middle;
   }
 
+  .wrapper{
+    max-width: 40em;
+    margin: 0 auto;
+  }
+
+  html{
+    font-size: 110%;
+    line-height: 1,4;
+  }
+
 }
 /*
 img {
@@ -295,5 +305,21 @@ dl{
 
   .nav li{
     display: block;
+  }
+
+  html{
+    font-size: 120%;
+    line-height: 1,5;
+  }
+  
+}
+
+@media print{
+  nav{
+    display: none;
+  }
+
+  main a::after{
+    content: "("  attr(href) ")";
   }
 }
