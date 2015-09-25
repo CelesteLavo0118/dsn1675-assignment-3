@@ -1,0 +1,234 @@
+@-moz-viewport {width: device-width; scale: 1; }
+@-ms-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+@viewport {width: device-width; scale: 1;}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+  margin:0 auto;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin:0;
+  font-family: sans-serif;
+}
+
+img{
+  width:100%;
+}
+
+.head{
+  background-color: lightgrey;
+}
+
+.masthead{
+  background-color: lightgrey;
+  color: white;
+  padding-top: 1rem;
+}
+
+.logo{
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+  padding: 1rem;
+}
+
+.title{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.nav{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.nav a{
+  display: block;
+  padding: .5em 1em;
+  color: black;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  background-color: lightgrey;
+}
+
+.banner{
+  position:relative;
+  padding-top: 0;
+}
+
+.banner-img{
+  width:100%;
+}
+
+h2{
+  color:black;
+  width:100%;
+  text-align:center;
+  margin:auto;
+  font-size:20px;
+}
+
+h3{
+  margin:auto;
+  text-align:center;
+}
+
+p{
+  margin:auto;
+  text-align:center;
+}
+
+.banner-text{
+  color:white;
+  width:100%;
+  text-align:center;
+  margin:auto;
+  font-size:20px;
+  position:absolute;
+  bottom:3.7em;
+}
+
+.banner-text-2{
+  color:black;
+  width:100%;
+  text-align:center;
+}
+
+a{
+  display: block;
+  min-width: 100%;
+  text-align: center;
+  background-color:white;
+  text-decoration: none;
+  color:black;
+  border:0.1rem solid #111111;
+  padding:0.5rem;
+  width:100%;
+}
+
+a:hover{
+  background-color:lightgrey;
+  color:#B808FF;
+}
+
+div{
+  padding-top: .5em;
+  padding-bottom: 1em;
+}
+
+dt{
+  text-align:center;
+}
+
+.atlantis{
+  position:relative;
+  padding-top: 0;
+  width:100%;
+}
+
+.antl-text{
+  width:100%;
+  text-align:center;
+  margin: 0 auto;
+  font-size:25px;
+  /*position:inherit;*/
+  position: relative;
+  bottom: 5rem;
+}
+
+.antl-text-2{
+  width:100%;
+  text-align:center;
+  margin:auto;
+  position: relative;
+  bottom: 5rem;
+
+}
+
+#week h3{
+  padding-top: 1rem;
+}
+
+#tickets h3{
+  padding-top: 1rem;
+}
+
+
+@media only screen and (min-width: 517px){
+  .nav li{
+    display: inline-block;
+  }
+
+  .banner-text{
+    color:white;
+    width:100%;
+    text-align:center;
+    margin:auto;
+    font-size:25px;
+    position:absolute;
+    bottom:2.7em;
+  }
+
+  .banner-text-2{
+    color:white;
+    width:100%;
+    text-align:center;
+    margin:auto;
+    position:absolute;
+    bottom:1.5em;
+  }
+
+}
+
+@media only screen and (min-width: 35em){
+  .logo{
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+  }
+
+  .title{
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+@media only screen and (min-width: 50em){
+
+  .masthead{
+    float: left;
+    width: 30%;
+  }
+
+  .logo{
+    margin: 0 auto;
+    display: block;
+  }
+
+  .title{
+    display: block;
+  }
+
+  .nav{
+    text-align: left;
+  }
+
+  .nav li{
+    display: block;
+  }
+}
