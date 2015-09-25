@@ -193,6 +193,7 @@ dt{
     bottom:1.5em;
   }
 
+
 }
 
 @media only screen and (min-width: 35em){
@@ -206,7 +207,71 @@ dt{
     display: inline-block;
     vertical-align: middle;
   }
+
 }
+/*
+img {
+  width: 48%;
+}
+
+.fluid{
+  margin: 10px 1%;
+  padding: 1%;
+  float: left;
+  outline: 2px solid orange;
+
+}
+.float{
+  float: right;
+  outline: 1px solid red;
+}
+
+dl{
+  float: right;
+  outline: 2px solid blue;
+  width: 50%;
+  margin-top: -20rem;
+
+}
+
+  .pyramid{
+    width:50%;
+    padding: 0.5rem;
+  }
+  .babylon{
+    width:50%;
+    padding: 0.5rem;
+  }
+
+  .temple{
+    width:50%;
+    padding: 0.5rem;
+  }
+
+  .statue{
+    width:50%;
+    padding: 0.5rem;
+  }
+
+  .hali{
+    width:50%;
+    padding: 0.5rem;
+  }
+
+  .colossus{
+    width:50%;
+    padding: 0.5rem;
+  }
+
+  .alex{
+    width:50%;
+    padding: 0.5rem;
+  }
+
+  */
+
+
+
 
 @media only screen and (min-width: 50em){
 
